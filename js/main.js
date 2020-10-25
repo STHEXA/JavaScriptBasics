@@ -1,20 +1,10 @@
 'use strict';
 
-// console.log("5" * 3);
-// console.log("5" - "3");
-
-console.log("5" + 3);
-console.log(parseInt("5", 10) + 3);
-
-console.log(parseInt("hello", 10) + 3);
-
-const price = 1200;
-// console.log(price > 1000);
-// console.log(price < 1000);
-// console.log(price >= 1000);
-// console.log(price <= 1000);
-// console.log(price === 1000);
-// console.log(price !== 1000);
-
-console.log(Boolean(0));
-console.log(Boolean('hello'));
+const score = 40;
+if(score >= 80){
+  console.log('great');
+} else if(score >= 60) {
+  console.log('good');
+} else {
+  console.log('ok');
+}
