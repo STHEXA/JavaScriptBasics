@@ -1,14 +1,17 @@
 'use strict';
 
-const score = 60;
-const name = 'taguti';
+const signal = 'pink'
 
-// if(score >= 50){
-//   if(name === 'taguti'){
-//     console.log('great');
-//   }
-// }
-
-if(score >= 50 && name === 'taguti'){
-  console.log('great');
+switch (signal) {
+  case 'red':
+    console.log('stop!');
+    break;
+  case 'yello':
+    console.log('caution!');
+    break;
+  case 'blue':
+    console.log('go!');
+    break;
+  default:
+    console.log('wrong signal');
 }
