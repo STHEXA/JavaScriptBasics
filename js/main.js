@@ -1,12 +1,14 @@
 'use strict';
 
-const score = 85;
-// if(score >= 80){
-//   console.log('great');
-// } else if(score >= 60) {
-//   console.log('good');
-// } else {
-//   console.log('ok');
+const score = 60;
+const name = 'taguti';
+
+// if(score >= 50){
+//   if(name === 'taguti'){
+//     console.log('great');
+//   }
 // }
 
-score >= 80　? console.log('great') : console.log('ok');
+if(score >= 50 && name === 'taguti'){
+  console.log('great');
+}
