@@ -1,12 +1,14 @@
 'use strict';
 
 {
-  const scores = [80, 90, 40];
-  // console.log(scores[1]);
-  // scores[2] = 44;
-  // console.log(scores);
+  const scores = [80, 90, 40,70];
 
-  // const scores = 10;
+  // console.log(`score: ${scores[0]}`);
+  // console.log(`score: ${scores[1]}`);
+  // console.log(`score: ${scores[2]}`);
 
-  console.log(scores.length);
+  // for(let i = 0; i < 3; i++){
+  for(let i = 0; i < scores.length; i++){
+    console.log(`score${i}: ${scores[i]}`);
+  }
 }
