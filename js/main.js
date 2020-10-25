@@ -1,11 +1,17 @@
 'use strict';
 
-for(let i = 1; i <= 10; i++){
-  // if(i % 3 === 0) {
-  //   continue;
-  // }
-  if (i === 4){
-    break;
-  }
-  console.log(i);
+function showAd(message ='Ad') {
+  console.log('-------------');
+  console.log(`------${message}-----`);
+  console.log('-------------');
 }
+
+
+showAd('headAd');
+console.log('tom is great!');
+console.log('bob is great');
+showAd('ad');
+showAd();
+console.log('steve is great!');
+console.log('richard is great!');
+showAd('footerAd');
